@@ -1,0 +1,8 @@
+https://deltarunesim.com/ -O /home/bubba/websites/deltarunesim -* +*.deltarunesim.com/* -F "Mozilla/5.0 (X11; Linux x86_64)" -%v
+File generated automatically on Sat, 03 Oct 2026 13:23:17, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

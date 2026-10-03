@@ -1,0 +1,3 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+13:23:18	86/86	---MCZ	200	added ('OK')	text/plain	etag:W/%224f6d8a3b1be27dc4d724f3ba3bfe59a6%22	https://deltarunesim.com/robots.txt		(from )
+13:23:19	21206/21206	---MCZ	200	added ('OK')	text/html	date:Sat,%2003%20Oct%202026%2018:23:18%20GMT	https://deltarunesim.com/	/home/bubba/websites/deltarunesim/deltarunesim.com/index.html	(from )
