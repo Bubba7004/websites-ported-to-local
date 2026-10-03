@@ -1,5 +1,5 @@
-HTTrack3.49-6 launched on Sat, 03 Oct 2026 13:23:17 at https://deltarunesim.com/ -* +*.deltarunesim.com/*
-(httrack https://deltarunesim.com/ -O /home/bubba/websites/deltarunesim -* +*.deltarunesim.com/* -F "Mozilla/5.0 (X11; Linux x86_64)" -%v )
+HTTrack3.49-6 launched on Sat, 03 Oct 2026 14:26:11 at https://deltarunesim.com/ -* +*.deltarunesim.com/* +*.js +*.json +*.css +*.png +*.jpg +*.svg +*.wasm
+(httrack https://deltarunesim.com/ -O /home/bubba/websites/deltarunesim -* +*.deltarunesim.com/* +*.js +*.json +*.css +*.png +*.jpg +*.svg +*.wasm -N100 -%v -F "Mozilla/5.0 (X11; Linux x86_64)" )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
@@ -7,5 +7,5 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	do not share these files/folders if you want these information to remain private
 
 
-HTTrack Website Copier/3.49-6 mirror complete in 2 seconds : 2 links scanned, 1 files written (21206 bytes overall) [11492 bytes received at 5746 bytes/sec], 21292 bytes transferred using HTTP compression in 2 files, ratio 35%
+HTTrack Website Copier/3.49-6 mirror complete in 1 minutes 17 seconds : 76 links scanned, 75 files written (34611506 bytes overall), 75 files updated [8776008 bytes received at 113974 bytes/sec], 34284659 bytes transferred using HTTP compression in 68 files, ratio 24%, 19.2 requests per connection
 (No errors, 0 warnings, 0 messages)
