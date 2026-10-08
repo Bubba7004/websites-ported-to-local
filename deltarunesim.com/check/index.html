@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Network Check - DELTARUNE Fight Simulator</title>
+<meta name="description" content="Checks, in your browser, that everything the DELTARUNE Fight Simulator needs can load on this network: its code, sprites, sound, video, saved settings and fight stats.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://deltarunesim.com/check">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DELTARUNE Fight Simulator">
+<meta property="og:url" content="https://deltarunesim.com/check">
+<meta property="og:title" content="Network Check - DELTARUNE Fight Simulator">
+<meta property="og:description" content="Check that the DELTARUNE Fight Simulator can load on this network.">
+<meta property="og:image" content="https://deltarunesim.com/assets/og/og_1200x630.png?v=848e21fa0e">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The DELTARUNE Fight Simulator logo on a band across a slanted wall of battle screenshots, with the line: Every boss. Free in your browser.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@deltarunesim">
+<meta name="twitter:title" content="Network Check - DELTARUNE Fight Simulator">
+<meta name="twitter:description" content="Check that the DELTARUNE Fight Simulator can load on this network.">
+<meta name="twitter:image" content="https://deltarunesim.com/assets/og/og_1200x630.png?v=848e21fa0e">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<style>
+/* NETWORK CHECK (/check), in the launch pages' look (owner 2026-10-03: "same for check.html"). It still
+loads no image, stylesheet or font file - the game font (DR Main, the pixel-font tool, 1.6 KB) is
+inline as a data URI - so it draws even where the simulator's own files are blocked, which is what
+it is for. Sizes are 16 / 32 / 48 px: the font is only crisp at those. */
+@font-face { font-family: 'DR Main'; src: url(data:font/woff2;base64,d09GMgABAAAAAAZgAAoAAAAAPCwAAAYVAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABmAANArncNMQATYCJAODAAuBQgAEIAVgB4daG1cwM9LLwSgsomJyk/B/Sm6c4gqAMnHLxPCogOmspG4xrw3Gk4CbRCP7CC4JGP3IY3eI6KcqM0Ilv/9T7/5Icn/sVw5gwQqaZVs7rVrTipatoIMbW2N7bMV2Iuq2d5VpwE/4hCk2TZBRot8NCw9AG+g/HPK0vDD8uhvcADVwYXOjFDIp3HPU3kXAjfFhmlqhjrGzVTocHODY+aobUGel+Z/Tkkq7ozlUAcoE8RigMLja/PEodlDpiBz6+/Qkey2fU0pF4CYUlUp5YOfHA3Hv9K/3m0QbQNY4D3xMkLHPuwAj+AKppZpDly1VEr8kbZWRGgaDRxzjyGJbFBD3+gZCr+PVx6f1ofYjAs83cxC4Hnr1hRpfr/XhX8CHV89by/ZyAAWHYhCBtaAWL3z+8elV3zEc7OAf4gThJj+Bc2PUBw2kEUSZJxBSkwTEKB7RLEMziGcIFcIQxQk8KyDEi4gWkSQJjCSwSOScWBYhCqk0a+cFFxCCfrCPQzQRvBco6KKStJqa/UcvuPfNAQcGOlocmoSw0xbFigGZVfvdLPoKhA1tdxaT5XyHBJzZMw8kkKKAbsSGD+jM2MlSbbeRtNd5MYLrWumLVfZnNztzVWtuWIdQNQ916GZK0Eil7LjXPFaD9NIryzsgjBlGKkiVhojUEiWvuWA/sfu8ZRGKuJ/Fud8xj5q3DEI5SjpDigJJuEI7+6vJjohNkIHQJ21hhLWfVxRmhQZiWYWDPS8WorkAq02V9IKWWwf4znLwvJj0HCXFE2CUVV+mCwOR0gX+qwSJYM4uiW46d8YA4X08ehjCMyYDv3L4M84rZNoTIp15aF/d1nZgnWm0yiYcBRK7l35tQKUA5daU86xU2q3cq9nK6hr+qUB0OF5RGCBhK8/qGsHXAu87zDx2HZTTxDQjJiJgCAZDmewQ5xhqO+lMMpdSTGzHs07qMu5eEWW+M1rGvSI/AbTPSWqV6izxP3O9uFc8FWfcR20ke56fp839aRJ4BcskEmyvYZd0d7SaWq/oSPdlGmVSv6c20eEd9nLjmyJneadig0Tqz4dbGm1u7wtBZKPX21VP8Es4q4oh8sL00fq6ulTt8/7uhp7hk2+9Q3FLkPuQNhLxTYUzIMNInfYeJtVqwku1dRdOlc1yAzTdJ+weWg70exDh++lLTUqnqLLly2d6fIwuMOrcuKzmxyWJafFj6UsVbptUf0A1+Ag3hsLK3d3k/jj9VGIxkki82AaOTYnkGWQ4n3StgKZHHusKQvT4hj5BDe9XaER8lvvAzRgXJ3sd89V8CH1JLMYZwIwIfwVgbIoS+QkfPYjUM3mp0AM0MFBsNI+/biJFJ6V7upZyY7NT0CZGkQwez/chlmLBMBeKvwg4f5zav1Av6kt+k+eaVRAeLAzPmkfWr3HSIznFngauT/PntLwYJ//rQaqV5bMcOejC61rnb02yBOhr9I1hID2XRI7+An0rkFd7T6NOJI8HOT2HjtfR+0FLu+xUWknfV8y8Ed8rDlZUXsQ392OyTb6O4C8pm8AfEjxHqwR/uiRAiVaTJoABc91vrW1kox87E5NoL5zbvNQFDxtmaY7u9uiXV85CxwsUWEjU82a7u9QSXz76lTnFVh2fJX7qpM/hkOj0ofCEG5qKfWLOyc8z7ijJMp5iF5lxH3dtuc3/ukJm+jOj4NBLivyXB/utXv6+Wf0dE9Qm5VfX9Z9RjOg/DdQ3ZvwX/PqucKMIX3lTDf+NFAD+v8XsZQF92CBJWv8UDdoMRgEktjLzh1fOla+qfFQrNBztpF11VzyTcEO7yy7AnlGqR4P9Cpiry5FJG707xVCAFuzlKnYMELMQAV/YbBEG9x4ggvhCNKW8WyXb/4n6EZ4LA0NjcXINJj+7xqs+wfsfJkhFSVZUTTdMy3Zcj0SmUGl0BpPF5qBcHl8gFIklUplcoVSpNVqd3mA0mS1WzGZ3OF1uj9fnx2BxeAKRRKZQaXQGk8XmcHl8gVAklkhlcoVSpa7Q+3U9H9chOl2gqHl5+/j6uT3JfwwMAAAAAAAgSZIkSZIUEREREREREVFVVVVVVVVVNTMzMzMzC9ai7sED) format('woff2'); }
+:root { --bg: #000; --fg: #fff; --sel: #ffff00; --dim: #9a9a9a; --hit: #ff3b3b; --ok: #5ef08a; --grid: rgba(96, 56, 128, .22); color-scheme: dark; }
+html { min-height: 100%; background-color: var(--bg);
+background-image: linear-gradient(var(--grid) 2px, transparent 2px), linear-gradient(90deg, var(--grid) 2px, transparent 2px); background-size: 40px 40px; }
+body { margin: 0; color: var(--fg); font: 16px/24px 'DR Main', monospace; -webkit-font-smoothing: none; -webkit-text-size-adjust: 100%; }
+* { box-sizing: border-box; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+a { color: var(--sel); text-underline-offset: 4px; }
+.home { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; color: var(--fg); }
+.home svg { width: 21px; height: 21px; }
+.top { text-align: center; margin: 40px 0 36px; }
+.top svg { width: 48px; height: 48px; display: block; margin: 0 auto 16px; }
+h1 { font-size: 48px; line-height: 48px; font-weight: normal; margin: 0; }
+.lede { color: var(--dim); margin: 16px 0 0; }
+/* the Dark World text box: a white line, black inside, the dim ring outside */
+.box { background: #000; border: 4px solid #fff; box-shadow: 0 0 0 4px #000, 0 0 0 8px #404040; padding: 8px 20px; margin: 0 0 32px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { display: grid; grid-template-columns: 28px 1fr auto; gap: 0 12px; align-items: baseline; padding: 14px 0; border-top: 2px dashed #333; }
+li:first-child { border-top: 0; }
+.mark { text-align: center; color: var(--dim); }
+.state { color: var(--dim); text-align: right; }
+.why { grid-column: 2 / 4; color: var(--dim); }
+li.ok .mark, li.ok .state { color: var(--ok); }
+li.bad .mark, li.bad .state { color: var(--hit); }
+li.warn .mark, li.warn .state { color: var(--sel); }
+#verdict { padding: 16px 20px; }
+#verdict p { margin: 8px 0; }
+#verdict b { color: var(--sel); font-weight: normal; }
+#verdict .ask { font-size: 32px; line-height: 40px; color: #fff; }
+#verdict code { font: inherit; color: var(--sel); }
+.row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+button, .btn { cursor: pointer; background: #000; color: #fff; border: 4px solid #fff; min-height: 56px; padding: 0 22px; font: 16px/1 'DR Main', monospace; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; }
+.btn.go { color: var(--sel); border-color: var(--sel); }
+button:hover, button:focus-visible, .btn:hover, .btn:focus-visible { color: var(--sel); border-color: var(--sel); outline: none; }
+button[disabled] { color: var(--dim); border-color: var(--dim); cursor: default; }
+.fine { color: var(--dim); text-align: center; margin: 28px 0 0; }
+.nojs { border: 4px solid #fff; padding: 12px 16px; }
+@media (max-width: 560px) { h1 { font-size: 32px; line-height: 32px; } #verdict .ask { font-size: 16px; line-height: 24px; } .row .btn, .row button { flex: 1 1 100%; justify-content: center; } }
+</style>
+<script type="module" src="/assets/check/check.js"></script>
+</head>
+<body>
+<main>
+<a class="home" href="/"><svg viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#ff0000" d="M1 1h2v1h1V1h2v1h1v2H6v1H5v1H4v1H3V6H2V5H1V4H0V2h1z"/></svg>DELTARUNE FIGHT SIMULATOR</a>
+<div class="top"><svg viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true"><path fill="#ff0000" d="M1 1h2v1h1V1h2v1h1v2H6v1H5v1H4v1H3V6H2V5H1V4H0V2h1z"/></svg><h1>NETWORK CHECK</h1>
+<p class="lede">Does the game load on this network? Nothing is sent anywhere.</p></div>
+<noscript><p class="nojs"><b>JavaScript is off.</b> The game needs it. Turn it on for deltarunesim.com.</p></noscript>
+<section class="box" aria-label="Checks"><ul id="checks"></ul></section>
+<section class="box" id="verdict" aria-live="polite"><p>Checking...</p></section>
+<div class="row"><button type="button" id="again" disabled>CHECK AGAIN</button><a class="btn go" href="/"><svg viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true" width="16" height="16"><path fill="#ff0000" d="M1 1h2v1h1V1h2v1h1v2H6v1H5v1H4v1H3V6H2V5H1V4H0V2h1z"/></svg>PLAY</a></div>
+</main>
+<!-- Cloudflare Pages Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "909b74ac57194ceca2e98326003b0e08"}'></script><!-- Cloudflare Pages Analytics --><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a478e112cc73815f',t:'MTc5MTUwMTY1OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
