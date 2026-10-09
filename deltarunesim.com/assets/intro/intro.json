@@ -1,0 +1,200 @@
+{
+ "sprites": {
+  "ch1/IMAGE_LOGO_CENTER": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 1,
+   "file": "ch1/IMAGE_LOGO_CENTER.strip.png"
+  },
+  "ch1/IMAGE_LOGO_CENTER_HEART": {
+   "w": 221,
+   "h": 40,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "ch1/IMAGE_LOGO_CENTER_HEART.strip.png"
+  },
+  "ch1/IMAGE_DEPTH": {
+   "w": 160,
+   "h": 120,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "ch1/IMAGE_DEPTH.strip.png"
+  },
+  "ch2/IMAGE_LOGO_CENTER_SEPARATE": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 9,
+   "file": "ch2/IMAGE_LOGO_CENTER_SEPARATE.strip.png"
+  },
+  "ch3/IMAGE_LOGO_CENTER": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 1,
+   "file": "ch3/IMAGE_LOGO_CENTER.strip.png"
+  },
+  "ch4/IMAGE_LOGO_CENTER_SHATTER": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 1,
+   "file": "ch4/IMAGE_LOGO_CENTER_SHATTER.strip.png"
+  },
+  "ch4/IMAGE_DEPTH_EXTEND_MONO_SEAMLESS_BRIGHTER": {
+   "w": 316,
+   "h": 238,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "ch4/IMAGE_DEPTH_EXTEND_MONO_SEAMLESS_BRIGHTER.strip.png"
+  },
+  "ch4/spr_firework_shine": {
+   "w": 5,
+   "h": 5,
+   "ox": 2,
+   "oy": 2,
+   "frames": 4,
+   "file": "ch4/spr_firework_shine.strip.png"
+  },
+  "ch4/spr_dw_church_prophecy_final_icon_w": {
+   "w": 99,
+   "h": 61,
+   "ox": 49,
+   "oy": 61,
+   "frames": 1,
+   "file": "ch4/spr_dw_church_prophecy_final_icon_w.strip.png"
+  },
+  "ch4/IMAGE_LOGO_CENTER_SHATTER_PIECES": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 94,
+   "file": "ch4/IMAGE_LOGO_CENTER_SHATTER_PIECES.strip.png"
+  },
+  "ch4/spr_perlin_noise_looping": {
+   "w": 256,
+   "h": 256,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "ch4/spr_perlin_noise_looping.strip.png"
+  },
+  "ch4/IMAGE_LOGO_CENTER_HEART_SEPARATED": {
+   "w": 224,
+   "h": 34,
+   "ox": 112,
+   "oy": 17,
+   "frames": 2,
+   "file": "ch4/IMAGE_LOGO_CENTER_HEART_SEPARATED.strip.png"
+  },
+  "ch4/spr_intro_prophecy_shatter": {
+   "w": 99,
+   "h": 61,
+   "ox": 49,
+   "oy": 61,
+   "frames": 26,
+   "file": "ch4/spr_intro_prophecy_shatter.strip.png"
+  },
+  "dr/spr_ui_star": {
+   "w": 10,
+   "h": 8,
+   "ox": 0,
+   "oy": 0,
+   "frames": 3,
+   "file": "dr/spr_ui_star.strip.png"
+  },
+  "dr/spr_chapterIcon": {
+   "w": 26,
+   "h": 23,
+   "ox": 0,
+   "oy": 0,
+   "frames": 7,
+   "file": "dr/spr_chapterIcon.strip.png"
+  },
+  "dr/spr_horzBar": {
+   "w": 320,
+   "h": 1,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "dr/spr_horzBar.strip.png"
+  },
+  "dr/spr_heart": {
+   "w": 9,
+   "h": 9,
+   "ox": 0,
+   "oy": 0,
+   "frames": 1,
+   "file": "dr/spr_heart.strip.png"
+  },
+  "dr/spr_ui_dot": {
+   "w": 10,
+   "h": 10,
+   "ox": 0,
+   "oy": 0,
+   "frames": 2,
+   "file": "dr/spr_ui_dot.strip.png"
+  }
+ },
+ "sounds": {
+  "ch1/AUDIO_INTRONOISE": "ch1/AUDIO_INTRONOISE.ogg",
+  "ch1/AUDIO_APPEARANCE": "ch1/AUDIO_APPEARANCE.wav",
+  "ch2/snd_queen_laugh_title": "ch2/snd_queen_laugh_title.wav",
+  "ch4/ch4_first_intro": "ch4/ch4_first_intro.ogg",
+  "ch4/ch4_first_intro_breaking": "ch4/ch4_first_intro_breaking.ogg",
+  "ch4/snd_glassbreak": "ch4/snd_glassbreak.wav",
+  "ch4/snd_punchmed": "ch4/snd_punchmed.wav",
+  "ch4/snd_break1": "ch4/snd_break1.wav",
+  "ut/snd_ballchime": "ut/snd_ballchime.wav",
+  "dr/ch5_select": "dr/ch5_select.wav",
+  "dr/ch2_select": "dr/ch2_select.wav",
+  "dr/ch1_select": "dr/ch1_select.wav",
+  "dr/ch3_select": "dr/ch3_select.wav",
+  "dr/snd_select": "dr/snd_select.wav",
+  "dr/ch4_select": "dr/ch4_select.wav",
+  "dr/snd_swing": "dr/snd_swing.wav",
+  "dr/snd_menumove": "dr/snd_menumove.wav"
+ },
+ "ids": {
+  "ch1": {
+   "sprites": {},
+   "sounds": {}
+  },
+  "ch2": {
+   "sprites": {},
+   "sounds": {}
+  },
+  "ch3": {
+   "sprites": {},
+   "sounds": {}
+  },
+  "ch4": {
+   "sprites": {
+    "4672": "IMAGE_LOGO_CENTER_SHATTER_PIECES",
+    "5775": "spr_intro_prophecy_shatter"
+   },
+   "sounds": {
+    "321": "snd_break1",
+    "236": "snd_glassbreak",
+    "269": "snd_punchmed"
+   }
+  },
+  "ut": {
+   "sprites": {},
+   "sounds": {}
+  },
+  "dr": {
+   "sprites": {},
+   "sounds": {}
+  }
+ }
+}

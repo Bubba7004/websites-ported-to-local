@@ -1,0 +1,44 @@
+{
+ "lockup": {
+  "label": "A  Stacked lockup",
+  "w": 156,
+  "h": 44,
+  "heart": [
+   15.0,
+   32.0
+  ]
+ },
+ "soul": {
+  "label": "B  SOUL mark",
+  "w": 198,
+  "h": 48,
+  "heart": [
+   24.0,
+   24.0
+  ]
+ },
+ "box": {
+  "label": "C  Battle box",
+  "w": 190,
+  "h": 53,
+  "heart": [
+   174.0,
+   37.0
+  ]
+ },
+ "dark": {
+  "label": "D  Dark World text box",
+  "w": 190,
+  "h": 61,
+  "heart": null
+ },
+ "icon": {
+  "label": "E  App icon",
+  "w": 64,
+  "h": 64,
+  "heart": [
+   32.0,
+   22.0
+  ]
+ }
+}

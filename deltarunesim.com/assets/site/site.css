@@ -1,1 +1,71 @@
-:root{--bg: #000;--fg: #e6e6e6;--hi: #fff;--sel: #ffff00;--dim: #9a9a9a;--hit: #ff0000;--rule: #404040;--grid: rgba(96, 56, 128, .2);--gut: 16px;color-scheme:dark}@media(min-width:900px){:root{--gut: 32px}}html{min-height:100%;background-color:var(--bg);background-image:linear-gradient(var(--grid) 2px,transparent 2px),linear-gradient(90deg,var(--grid) 2px,transparent 2px);background-size:40px 40px}body{margin:0;min-height:100vh;overflow-x:clip;color:var(--fg);-webkit-text-size-adjust:100%;font:17px/1.55 -apple-system,BlinkMacSystemFont,Segoe UI,system-ui,sans-serif}*{box-sizing:border-box}img{display:block;image-rendering:pixelated;max-width:100%;height:auto}a{color:var(--sel);text-underline-offset:3px}:focus-visible{outline:2px dotted var(--sel);outline-offset:4px}.wrap{max-width:760px;margin:0 auto;padding:0 var(--gut)}.top{border-bottom:2px solid var(--rule);background:var(--bg)}.top .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0 20px;min-height:56px}.home{display:inline-flex;align-items:center;gap:10px;color:var(--hi);text-decoration:none;font:700 15px/1 monospace;letter-spacing:1px;min-height:44px}.home img{width:16px;height:16px}.nav{display:flex;flex-wrap:wrap;gap:0 18px;margin:0;padding:0;list-style:none;font:15px/1 monospace;letter-spacing:1px}.nav a{display:inline-flex;align-items:center;min-height:44px;color:var(--fg);text-decoration:none}.nav a:hover,.nav a[aria-current=page]{color:var(--sel)}.crumbs{margin:18px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;font:14px/1.4 monospace;color:var(--dim)}.crumbs li+li:before{content:">";margin:0 8px;color:var(--rule)}.crumbs a{color:var(--dim)}.box{margin:16px 0 24px;padding:6px 22px 22px;border:2px solid #fff;box-shadow:0 0 0 2px #000,0 0 0 4px var(--rule);background:#000}@media(max-width:520px){.box{padding:4px 14px 16px}}.kicker{margin:14px 0 0;font:14px/1.4 monospace;color:var(--dim);letter-spacing:1px;text-transform:uppercase}h1{font-size:28px;line-height:1.2;color:var(--hi);margin:6px 0 14px;letter-spacing:.5px}h2{font-size:19px;color:var(--sel);margin:26px 0 6px;letter-spacing:1px;text-transform:uppercase}h3{font-size:17px;color:var(--hi);margin:16px 0 2px}p,li{margin:8px 0}ul{padding-left:22px;margin:6px 0}li::marker{color:var(--hit)}.lede{color:var(--hi);font-size:18px}.fine{color:var(--dim);font-size:15px}strong{color:var(--hi)}.shot{margin:0 0 14px;border:2px solid var(--rule);background:#000}.shot img{width:100%;aspect-ratio:4 / 3}.play{display:flex;align-items:center;justify-content:center;gap:12px;margin:22px 0 8px;padding:14px 18px;min-height:56px;border:2px solid var(--sel);color:var(--sel);background:#000;text-decoration:none;font:700 20px/1 monospace;letter-spacing:3px}.play img{width:16px;height:16px}.play:hover,.play:focus-visible{background:var(--sel);color:#000;outline:none}.play+.fine{text-align:center;margin-top:0}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin:10px 0 0;padding:0;list-style:none}.cards li{margin:0}.cards li::marker{content:none}.cards a{display:block;text-decoration:none;color:var(--fg);border:2px solid var(--rule);background:#000;height:100%}.cards a:hover,.cards a:focus-visible{border-color:var(--sel);color:var(--sel);outline:none}.cards img{width:100%;aspect-ratio:4 / 3;border-bottom:2px solid var(--rule)}.cards span{display:block;padding:6px 8px 8px;font:14px/1.3 monospace}.box>section+section{margin-top:8px}.foot{border-top:2px solid var(--rule);padding:18px 0 40px;color:var(--dim);font-size:14px}.foot .nav{margin-bottom:8px}.foot p{margin:6px 0}
+/* THE SITE'S TEXT PAGES (/fights, /fight/<slug>, /about, /privacy, /schools): plain HTML a crawler can
+   read, in the look of /stats and /updates - black, the Dark World grid, white / yellow / red, the white
+   text box of the home page's "About this site". No script, no web font, nothing inline. */
+:root {
+  --bg: #000; --fg: #e6e6e6; --hi: #fff; --sel: #ffff00; --dim: #9a9a9a; --hit: #ff0000; --rule: #404040;
+  --grid: rgba(96, 56, 128, .2); --gut: 16px;
+  color-scheme: dark;
+}
+@media (min-width: 900px) { :root { --gut: 32px; } }
+html { min-height: 100%; background-color: var(--bg);
+  background-image: linear-gradient(var(--grid) 2px, transparent 2px), linear-gradient(90deg, var(--grid) 2px, transparent 2px);
+  background-size: 40px 40px; }
+body { margin: 0; min-height: 100vh; overflow-x: clip; color: var(--fg); -webkit-text-size-adjust: 100%;
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif; }
+* { box-sizing: border-box; }
+img { display: block; image-rendering: pixelated; max-width: 100%; height: auto; }
+a { color: var(--sel); text-underline-offset: 3px; }
+:focus-visible { outline: 2px dotted var(--sel); outline-offset: 4px; }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 var(--gut); }
+
+/* the top bar: home on the left, the site's pages on the right */
+.top { border-bottom: 2px solid var(--rule); background: var(--bg); }
+.top .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 20px; min-height: 56px; }
+.home { display: inline-flex; align-items: center; gap: 10px; color: var(--hi); text-decoration: none; font: bold 15px/1 monospace; letter-spacing: 1px; min-height: 44px; }
+.home img { width: 16px; height: 16px; }
+.nav { display: flex; flex-wrap: wrap; gap: 0 18px; margin: 0; padding: 0; list-style: none; font: 15px/1 monospace; letter-spacing: 1px; }
+.nav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--fg); text-decoration: none; }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--sel); }
+
+/* breadcrumbs */
+.crumbs { margin: 18px 0 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; font: 14px/1.4 monospace; color: var(--dim); }
+.crumbs li + li::before { content: ">"; margin: 0 8px; color: var(--rule); }
+.crumbs a { color: var(--dim); }
+
+/* the text box */
+.box { margin: 16px 0 24px; padding: 6px 22px 22px; border: 2px solid #fff; box-shadow: 0 0 0 2px #000, 0 0 0 4px var(--rule); background: #000; }
+@media (max-width: 520px) { .box { padding: 4px 14px 16px; } }
+.kicker { margin: 14px 0 0; font: 14px/1.4 monospace; color: var(--dim); letter-spacing: 1px; text-transform: uppercase; }
+h1 { font-size: 28px; line-height: 1.2; color: var(--hi); margin: 6px 0 14px; letter-spacing: .5px; }
+h2 { font-size: 19px; color: var(--sel); margin: 26px 0 6px; letter-spacing: 1px; text-transform: uppercase; }
+h3 { font-size: 17px; color: var(--hi); margin: 16px 0 2px; }
+p, li { margin: 8px 0; }
+ul { padding-left: 22px; margin: 6px 0; }
+li::marker { color: var(--hit); }
+.lede { color: var(--hi); font-size: 18px; }
+.fine { color: var(--dim); font-size: 15px; }
+strong { color: var(--hi); }
+
+/* a fight page: the screenshot, the words, the PLAY button */
+.shot { margin: 0 0 14px; border: 2px solid var(--rule); background: #000; }
+.shot img { width: 100%; aspect-ratio: 4 / 3; }
+.play { display: flex; align-items: center; justify-content: center; gap: 12px; margin: 22px 0 8px; padding: 14px 18px; min-height: 56px;
+  border: 2px solid var(--sel); color: var(--sel); background: #000; text-decoration: none; font: bold 20px/1 monospace; letter-spacing: 3px; }
+.play img { width: 16px; height: 16px; }
+.play:hover, .play:focus-visible { background: var(--sel); color: #000; outline: none; }
+.play + .fine { text-align: center; margin-top: 0; }
+
+/* lists of fights: the related ones under a page, every one on /fights */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 10px 0 0; padding: 0; list-style: none; }
+.cards li { margin: 0; }
+.cards li::marker { content: none; }
+.cards a { display: block; text-decoration: none; color: var(--fg); border: 2px solid var(--rule); background: #000; height: 100%; }
+.cards a:hover, .cards a:focus-visible { border-color: var(--sel); color: var(--sel); outline: none; }
+.cards img { width: 100%; aspect-ratio: 4 / 3; border-bottom: 2px solid var(--rule); }
+.cards span { display: block; padding: 6px 8px 8px; font: 14px/1.3 monospace; }
+.box > section + section { margin-top: 8px; }
+
+/* the footer: the site's pages and the disclaimer */
+.foot { border-top: 2px solid var(--rule); padding: 18px 0 40px; color: var(--dim); font-size: 14px; }
+.foot .nav { margin-bottom: 8px; }
+.foot p { margin: 6px 0; }

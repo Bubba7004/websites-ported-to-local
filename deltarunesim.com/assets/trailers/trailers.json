@@ -1,0 +1,280 @@
+{
+ "version": 1,
+ "items": [
+  {
+   "id": "main-c",
+   "kind": "trailer",
+   "title": "TRAILER",
+   "blurb": "Every boss, any mistake, any idea, no hands - each line, then the proof.",
+   "v": 4,
+   "duration": 72.4,
+   "poster": "main-c_poster_v4.jpg",
+   "sources": [
+    {
+     "file": "main-c_16x9_v4.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 15449088
+    },
+    {
+     "file": "main-c_9x16_v4.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 10650223
+    }
+   ]
+  },
+  {
+   "id": "main-b",
+   "kind": "trailer",
+   "title": "TRAILER (ALT STYLE)",
+   "blurb": "The text box tells you what every shot is.",
+   "v": 4,
+   "duration": 73.4,
+   "poster": "main-b_poster_v4.jpg",
+   "sources": [
+    {
+     "file": "main-b_16x9_v4.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 16646102
+    },
+    {
+     "file": "main-b_9x16_v4.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 14745635
+    }
+   ]
+  },
+  {
+   "id": "main-a",
+   "kind": "trailer",
+   "title": "TRAILER (ALT STYLE)",
+   "blurb": "The feature tour, section by section.",
+   "v": 4,
+   "duration": 98.5,
+   "poster": "main-a_poster_v4.jpg",
+   "sources": [
+    {
+     "file": "main-a_16x9_v4.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 19575615
+    },
+    {
+     "file": "main-a_9x16_v4.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 19857377
+    }
+   ]
+  },
+  {
+   "id": "short",
+   "kind": "trailer",
+   "title": "SHORT CUT",
+   "blurb": "The trailer in thirty seconds.",
+   "v": 3,
+   "duration": 28.3,
+   "poster": "short_poster_v3.jpg",
+   "sources": [
+    {
+     "file": "short_16x9_v3.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 8668434
+    },
+    {
+     "file": "short_9x16_v3.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 9330899
+    }
+   ]
+  },
+  {
+   "id": "autoplay",
+   "kind": "spot",
+   "title": "AUTOPLAY",
+   "blurb": "The SOUL that dodges on its own.",
+   "v": 2,
+   "duration": 22,
+   "poster": "autoplay_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "autoplay_16x9_v2.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 3892248
+    },
+    {
+     "file": "autoplay_9x16_v2.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 3676643
+    }
+   ]
+  },
+  {
+   "id": "survivors",
+   "kind": "spot",
+   "title": "SURVIVORS",
+   "blurb": "One SOUL against the horde.",
+   "v": 3,
+   "duration": 23.1,
+   "poster": "survivors_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "survivors_16x9_v2.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 15989065
+    },
+    {
+     "file": "survivors_9x16_v3.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 19175643
+    }
+   ]
+  },
+  {
+   "id": "spellcard",
+   "kind": "spot",
+   "title": "SPELL CARD RUSH",
+   "blurb": "Graze everything. Take nothing.",
+   "v": 2,
+   "duration": 19.6,
+   "poster": "spellcard_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "spellcard_16x9_v2.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 16974117
+    },
+    {
+     "file": "spellcard_9x16_v2.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 16377761
+    }
+   ]
+  },
+  {
+   "id": "mania",
+   "kind": "spot",
+   "title": "MANIA",
+   "blurb": "Four lanes, any song.",
+   "v": 2,
+   "duration": 17.8,
+   "poster": "mania_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "mania_16x9_v2.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 4917605
+    },
+    {
+     "file": "mania_9x16_v2.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 6430783
+    }
+   ]
+  },
+  {
+   "id": "toolkit",
+   "kind": "spot",
+   "title": "TOOLKIT",
+   "blurb": "Attack Lab, the editor and the rest.",
+   "v": 3,
+   "duration": 20.5,
+   "poster": "toolkit_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "toolkit_16x9_v3.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 5689783
+    },
+    {
+     "file": "toolkit_9x16_v3.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 4206983
+    }
+   ]
+  },
+  {
+   "id": "darkdle-tetris",
+   "kind": "spot",
+   "title": "DARKDLE + TETRIS",
+   "blurb": "A daily guess and a falling-block fight.",
+   "v": 2,
+   "duration": 19.1,
+   "poster": "darkdle-tetris_poster_v2.jpg",
+   "sources": [
+    {
+     "file": "darkdle-tetris_16x9_v2.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 3526885
+    },
+    {
+     "file": "darkdle-tetris_9x16_v2.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 2798811
+    }
+   ]
+  },
+  {
+   "id": "tetris-custom",
+   "kind": "spot",
+   "title": "LEVEL UP",
+   "blurb": "A custom Tetris fight, level by level.",
+   "v": 3,
+   "duration": 29.7,
+   "poster": "tetris-custom_poster_v3.jpg",
+   "sources": [
+    {
+     "file": "tetris-custom_16x9_v3.mp4",
+     "aspect": "16:9",
+     "w": 1920,
+     "h": 1080,
+     "bytes": 6740435
+    },
+    {
+     "file": "tetris-custom_9x16_v3.mp4",
+     "aspect": "9:16",
+     "w": 1080,
+     "h": 1920,
+     "bytes": 6929649
+    }
+   ]
+  }
+ ]
+}

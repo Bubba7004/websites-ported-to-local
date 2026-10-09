@@ -1,0 +1,18 @@
+{
+  "_comment": "PLACEHOLDER. Original filler text written for this repo so the lyrics renderer can be seen working - it is not the song. Replace with your own badapple.json or badapple.lrc; see README.md.",
+  "offset": 0,
+  "lines": [
+    { "t": 1.0,  "end": 5.0,  "jp": "かげが おどる",           "romaji": "kage ga odoru" },
+    { "t": 5.0,  "end": 9.0,  "jp": "しろと くろの あいだで",   "romaji": "shiro to kuro no aida de" },
+    { "t": 9.0,  "end": 13.0, "jp": "ひかりは いたい",          "romaji": "hikari wa itai" },
+    { "t": 13.0, "end": 17.0, "jp": "やみは やさしい",          "romaji": "yami wa yasashii" },
+    { "t": 17.0, "end": 21.0, "jp": "とまらないで",             "romaji": "tomaranaide" },
+    { "t": 21.0, "end": 26.0, "jp": "フィルムは まだ まわる",   "romaji": "firumu wa mada mawaru" },
+    { "t": 26.0, "end": 31.0, "jp": "これは ためしの かし",     "romaji": "kore wa tameshi no kashi",
+      "words": [
+        { "t": 26.0, "d": 0.9, "s": "これは " },
+        { "t": 26.9, "d": 1.4, "s": "ためしの " },
+        { "t": 28.3, "d": 1.2, "s": "かし" }
+      ] }
+  ]
+}
